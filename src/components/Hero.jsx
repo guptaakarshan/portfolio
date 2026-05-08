@@ -23,9 +23,9 @@ const Hero = () => {
           className="flex flex-col justify-center"
         >
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.8, delay: 1.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="text-secondary font-medium tracking-widest uppercase text-xs sm:text-sm mb-6 ml-1">
               Software Engineer
@@ -33,9 +33,9 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.8, delay: 1.9, ease: [0.22, 1, 0.36, 1] }}
           >
             <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[8rem] xl:text-[9rem] font-bold tracking-tighter text-white mb-6 leading-[0.9] -ml-1 sm:-ml-2">
               Akarshan <br />
@@ -44,9 +44,9 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.8, delay: 2.0, ease: [0.22, 1, 0.36, 1] }}
             className="max-w-lg text-base sm:text-lg text-secondary mb-12 leading-relaxed font-light"
           >
             <p>
@@ -56,9 +56,9 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.8, delay: 2.1, ease: [0.22, 1, 0.36, 1] }}
             className="flex flex-col sm:flex-row items-center sm:items-start gap-4"
           >
             <Magnetic>
@@ -86,9 +86,9 @@ const Hero = () => {
         {/* Right Side: Image */}
         <motion.div
            style={{ y: yText, opacity: opacityText }}
-           initial={{ opacity: 0, scale: 0.9 }}
-           animate={{ opacity: 1, scale: 1 }}
-           transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+           initial={{ opacity: 0, y: -50, scale: 0.9 }}
+           animate={{ opacity: 1, y: 0, scale: 1 }}
+           transition={{ duration: 0.8, delay: 2.2, ease: [0.22, 1, 0.36, 1] }}
            className="relative hidden md:flex justify-end items-center lg:pr-8"
         >
            <div className="relative w-full max-w-[400px] xl:max-w-[450px] aspect-[4/5] rounded-[2.5rem] overflow-hidden border border-white/10 bg-surface/30 group shadow-2xl shadow-black/50">
@@ -115,7 +115,7 @@ const Hero = () => {
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
+        transition={{ delay: 2.8, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-secondary/50"
       >
         <span className="text-xs uppercase tracking-widest font-medium">Scroll</span>
