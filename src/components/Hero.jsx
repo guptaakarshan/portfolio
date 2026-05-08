@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <section ref={ref} id="hero" className="min-h-[100vh] w-full flex items-center relative overflow-hidden">
-      <div className="w-full grid md:grid-cols-2 gap-12 lg:gap-8 items-center z-10 mt-20 md:mt-0">
+      <div className="w-full grid md:grid-cols-2 gap-12 lg:gap-8 items-center z-10 mt-24 lg:mt-16 pt-12 md:pt-0">
         
         {/* Left Side: Text */}
         <motion.div 
