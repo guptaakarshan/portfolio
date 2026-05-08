@@ -1,7 +1,9 @@
 import React from 'react';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { Code2, Globe } from 'lucide-react';
+import { SiLeetcode } from 'react-icons/si';
 import Magnetic from './Magnetic';
+import CodolioIcon from './CodolioIcon';
 
 const Footer = () => {
   return (
@@ -25,12 +27,12 @@ const Footer = () => {
           </Magnetic>
           <Magnetic>
             <a href="https://leetcode.com/u/akarshan_gupta/" target="_blank" rel="noopener noreferrer" className="block text-secondary hover:text-white transition-colors p-2 -m-2" title="LeetCode">
-              <Code2 size={20} />
+              <SiLeetcode size={20} />
             </a>
           </Magnetic>
           <Magnetic>
             <a href="https://codolio.com/profile/lightning" target="_blank" rel="noopener noreferrer" className="block text-secondary hover:text-white transition-colors p-2 -m-2" title="Codolio">
-              <Globe size={20} />
+              <CodolioIcon size={20} className="text-secondary hover:text-white transition-colors" />
             </a>
           </Magnetic>
         </div>

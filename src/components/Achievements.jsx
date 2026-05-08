@@ -6,7 +6,7 @@ const achievements = [
   {
     title: "250+ DSA Problems Solved",
     description: "Consistently sharpening algorithmic problem-solving skills and data structure mastery across LeetCode, Codeforces, and GeeksForGeeks.",
-    icon: <Code2 className="text-accent mb-6" size={36} />
+    icon: <Code2 className="text-white mb-6 group-hover:text-accent transition-colors" size={36} />
   },
   {
     title: "Hackathon Podiums",
